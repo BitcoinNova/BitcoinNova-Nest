@@ -17,7 +17,7 @@ type node struct {
 	SSL  bool   `json:"ssl"`
 }
 
-const urlBitcoinNovaRemoteNodes = "https://raw.githubusercontent.com/Bitcoin-N/bitcoinnova-nodes-json/master/Bitcoinnova-nodes.json"
+const urlBitcoinNovaRemoteNodes = "https://raw.githubusercontent.com/BitcoinNova/bitcoinnova-nodes-json/master/Bitcoinnova-nodes.json"
 
 func requestListRemoteNodes() (remoteNodes []node) {
 
